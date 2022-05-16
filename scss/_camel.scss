@@ -1,7 +1,9 @@
 #camel{
-  height: 256px;
+  display: block;
+  margin-left:45%;
+  margin-right:55%;
   width: 256px;
-  display: flex;
-  justify-content: center;
-  position: center;
+  height: 256px;
+  position: absolute;
+  top:50%;
 }
