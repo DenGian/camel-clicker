@@ -1,0 +1,17 @@
+body {
+  background-image: url("../images/background.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
+}
+
+#camel {
+  height: 256px;
+  width: 256px;
+  display: flex;
+  justify-content: center;
+  position: center;
+}
+
+/*# sourceMappingURL=homepage.css.map */
