@@ -1,11 +1,15 @@
-var camel = 0;
-var clicks = 1;
-var jamalCost = 100;
-var jamals = 0;
-var nissanCost = 1000;
-var nissans = 0;
-var shaniquaCost = 5000;
-var shaniquas = 0;
+let camel = 0;
+let clicks = 1;
+let jamalCost = 40;
+let jamals = 0;
+let nissanCost = 600;
+let nissans = 0;
+let shaniquaCost = 3000;
+let shaniquas = 0;
+
+setInterval(function (){
+    document.title = camel+' camels - Camel Clicker';
+    })
 
 document.getElementById('camel').addEventListener('click', addCamel);
 
@@ -19,7 +23,7 @@ function upgrade1(){
     if(camel>=jamalCost){
         camel=camel-jamalCost;
         jamals=jamals+1;
-        jamalCost=Math.round(jamalCost*1.3);
+        jamalCost=Math.round(jamalCost*1.35);
         clicks=clicks+1;
         document.getElementById('score').innerHTML = camel;
         document.getElementById('jamalCost').innerHTML = jamalCost;
@@ -32,7 +36,7 @@ function upgrade2(){
     if (camel >=nissanCost){
         camel=camel-nissanCost;
         nissans=nissans+1;
-        nissanCost=Math.round(nissanCost*1.35);
+        nissanCost=Math.round(nissanCost*1.1);
         document.getElementById('score').innerHTML = camel;
         document.getElementById('nissanCost').innerHTML = nissanCost;
         document.getElementById('nissans').innerHTML = nissans;
@@ -49,7 +53,7 @@ function upgrade3(){
     if (camel >=shaniquaCost){
         camel=camel-shaniquaCost;
         shaniquas=shaniquas+1;
-        shaniquaCost=Math.round(shaniquaCost*1.40);
+        shaniquaCost=Math.round(shaniquaCost*1.15);
         document.getElementById('score').innerHTML = camel;
         document.getElementById('shaniquaCost').innerHTML = shaniquaCost;
         document.getElementById('shaniquas').innerHTML = shaniquas;

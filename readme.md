@@ -94,3 +94,21 @@ JavaScript.
 * http://orteil.dashnet.org/cookieclicker/ [cookie clicker]
 * https://particle-clicker.web.cern.ch/particle-clicker/ [particle clicker]
 * https://www.pokeclicker.com/ [pokémon clicker]
+
+---
+### What I would like to improve/ work on for the future
+* responsiveness
+* Work more with sections (helps styling)
+* Use of cookies to store score
+* Use more comments 
+---
+### Useful rescources
+* For flex
+  * https://developer.mozilla.org/en-US/docs/Web/CSS/vertical-align
+  * http://phrogz.net/CSS/vertical-align/index.html
+  * https://yoksel.github.io/flex-cheatsheet/
+  * https://css-tricks.com/snippets/css/a-guide-to-flexbox/
+* Reset css
+  * https://meyerweb.com/eric/tools/css/reset/
+* How to start making incremental game
+  * https://www.youtube.com/watch?v=d-AbDEwpp6g
