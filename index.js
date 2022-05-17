@@ -6,6 +6,12 @@ let nissanCost = 600;
 let nissans = 0;
 let shaniquaCost = 3000;
 let shaniquas = 0;
+let teaCost = 10000;
+let teas = 0;
+let oilCost = 20000;
+let oils = 0;
+let sheikhCost = 50000;
+let sheikhs = 0;
 
 setInterval(function (){
     document.title = camel+' camels - Camel Clicker';
@@ -61,5 +67,56 @@ function upgrade3(){
 }
 setInterval(function (){
     camel = camel+Math.floor(shaniquas*3);
+    document.getElementById('score').innerHTML = camel;
+},1000)
+
+document.getElementById('tea').addEventListener('click',upgrade4);
+
+function upgrade4(){
+    if (camel >=teaCost){
+        camel=camel-teaCost;
+        teas=teas+1;
+        teaCost=Math.round(teaCost*1.15);
+        document.getElementById('score').innerHTML = camel;
+        document.getElementById('teaCost').innerHTML = teaCost;
+        document.getElementById('teas').innerHTML = teas;
+    }
+}
+setInterval(function (){
+    camel = camel+Math.floor(teas*20);
+    document.getElementById('score').innerHTML = camel;
+},1000)
+
+document.getElementById('oil').addEventListener('click',upgrade5);
+
+function upgrade5(){
+    if (camel >=oilCost){
+        camel=camel-oilCost;
+        oils=oils+1;
+        oilCost=Math.round(oilCost*1.15);
+        document.getElementById('score').innerHTML = camel;
+        document.getElementById('oilCost').innerHTML = oilCost;
+        document.getElementById('oils').innerHTML = oils;
+    }
+}
+setInterval(function (){
+    camel = camel+Math.floor(oils*50);
+    document.getElementById('score').innerHTML = camel;
+},1000)
+
+document.getElementById('sheikh').addEventListener('click',upgrade6);
+
+function upgrade6(){
+    if (camel >=sheikhCost){
+        camel=camel-sheikhCost;
+        sheikhs=sheikhs+1;
+        sheikhCost=Math.round(sheikhCost*1.15);
+        document.getElementById('score').innerHTML = camel;
+        document.getElementById('sheikhCost').innerHTML = sheikhCost;
+        document.getElementById('sheikhs').innerHTML = sheikhs;
+    }
+}
+setInterval(function (){
+    camel = camel+Math.floor(shaniquas*250);
     document.getElementById('score').innerHTML = camel;
 },1000)

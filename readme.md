@@ -98,9 +98,10 @@ JavaScript.
 ---
 ### What I would like to improve/ work on for the future
 * responsiveness
-* Work more with sections (helps styling)
+* Work more with sections (helps to style)
 * Use of cookies to store score
 * Use more comments 
+* added pictures to buttons
 ---
 ### Useful rescources
 * For flex

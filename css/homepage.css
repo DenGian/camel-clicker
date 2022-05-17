@@ -32,12 +32,12 @@ body {
 }
 
 .camelCount {
-  width: 2%;
+  width: 3%;
   margin-right: 1%;
 }
 
 #score {
-  font-size: 20px;
+  font-size: 25px;
   font-family: "Comic Sans MS", serif;
 }
 
@@ -55,7 +55,7 @@ body {
 button {
   font-family: "Comic Sans MS", serif;
   background-color: rgb(250, 213, 165);
-  margin-top: 20px;
+  margin-top: 40px;
   border-radius: 45px;
 }
 
