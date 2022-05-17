@@ -6,4 +6,11 @@
   height: 256px;
   position: absolute;
   top:50%;
+  transition: all 0.2s ease-in-out;
+}
+#camel:hover{
+  transform: scale(1.1);
+}
+#camel:active{
+  transform: scale(0.70);
 }
