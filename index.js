@@ -117,6 +117,6 @@ function upgrade6(){
     }
 }
 setInterval(function (){
-    camel = camel+Math.floor(shaniquas*250);
+    camel = camel+Math.floor(sheikhs*250);
     document.getElementById('score').innerHTML = camel;
 },1000)
