@@ -14,7 +14,7 @@ body {
   height: 256px;
   position: absolute;
   top: 50%;
-  transition: all 0.2s ease-in-out;
+  transition: all 0.19s ease-in-out;
 }
 
 #camel:hover {
@@ -22,7 +22,7 @@ body {
 }
 
 #camel:active {
-  transform: scale(0.7);
+  transform: scale(0.93);
 }
 
 #title {
