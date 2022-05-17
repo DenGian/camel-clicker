@@ -66,7 +66,7 @@ function upgrade3(){
     }
 }
 setInterval(function (){
-    camel = camel+Math.floor(shaniquas*3);
+    camel = camel+Math.floor(shaniquas*5);
     document.getElementById('score').innerHTML = camel;
 },1000)
 
