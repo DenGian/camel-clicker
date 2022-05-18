@@ -96,14 +96,47 @@ JavaScript.
 * https://www.pokeclicker.com/ [pokémon clicker]
 
 ---
-### What I would like to improve/ work on for the future
-* responsiveness
-* Work more with sections (helps to style)
-* Use of cookies to store score
-* Use more comments 
-* added pictures to buttons
+## Goals
+
+[x] Understand js that needs to be used in this project
+
+[x] Learn to use and implement js in an actual project
+
+[x] Try to implement scss instead of css
+
+[] Responsiveness
+
+[] Add pictures to buttons
+
+[] Use cookies to store player score
+
+[x] Get the page online
+
+[] Add a random event/ button that acts like a multiplier for short amount of time
+
+[x] Add live score in the title of the webpage
+
+[x] Have a good file structure
+
 ---
-### Useful rescources
+### What I would like to work on for the future
+
+* Work more with sections (helps to style)
+  * More thought out page lay-out
+* Use more comments
+* better commit messages
+* Start with a plan of attack and write this in the readme
+* More thought out balance of prices
+  * Work more on mathematical functions in js and learn about them
+---
+### What have I learned
+
+## !Think before doing!
+* Start with plan of attack in read me and make goals
+
+---
+
+### Useful resources
 * For flex
   * https://developer.mozilla.org/en-US/docs/Web/CSS/vertical-align
   * http://phrogz.net/CSS/vertical-align/index.html

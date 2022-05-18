@@ -12,6 +12,8 @@ let oilCost = 20000;
 let oils = 0;
 let sheikhCost = 50000;
 let sheikhs = 0;
+let sultanCost = 1000000;
+let sultans = 0;
 
 setInterval(function (){
     document.title = camel+' camels - Camel Clicker';
@@ -59,7 +61,7 @@ function upgrade3(){
     if (camel >=shaniquaCost){
         camel=camel-shaniquaCost;
         shaniquas=shaniquas+1;
-        shaniquaCost=Math.round(shaniquaCost*1.15);
+        shaniquaCost=Math.round(shaniquaCost*1.20);
         document.getElementById('score').innerHTML = camel;
         document.getElementById('shaniquaCost').innerHTML = shaniquaCost;
         document.getElementById('shaniquas').innerHTML = shaniquas;
@@ -76,7 +78,7 @@ function upgrade4(){
     if (camel >=teaCost){
         camel=camel-teaCost;
         teas=teas+1;
-        teaCost=Math.round(teaCost*1.15);
+        teaCost=Math.round(teaCost*1.25);
         document.getElementById('score').innerHTML = camel;
         document.getElementById('teaCost').innerHTML = teaCost;
         document.getElementById('teas').innerHTML = teas;
@@ -93,7 +95,7 @@ function upgrade5(){
     if (camel >=oilCost){
         camel=camel-oilCost;
         oils=oils+1;
-        oilCost=Math.round(oilCost*1.15);
+        oilCost=Math.round(oilCost*1.35);
         document.getElementById('score').innerHTML = camel;
         document.getElementById('oilCost').innerHTML = oilCost;
         document.getElementById('oils').innerHTML = oils;
@@ -110,7 +112,7 @@ function upgrade6(){
     if (camel >=sheikhCost){
         camel=camel-sheikhCost;
         sheikhs=sheikhs+1;
-        sheikhCost=Math.round(sheikhCost*1.15);
+        sheikhCost=Math.round(sheikhCost*1.40);
         document.getElementById('score').innerHTML = camel;
         document.getElementById('sheikhCost').innerHTML = sheikhCost;
         document.getElementById('sheikhs').innerHTML = sheikhs;
@@ -120,3 +122,20 @@ setInterval(function (){
     camel = camel+Math.floor(sheikhs*250);
     document.getElementById('score').innerHTML = camel;
 },1000)
+
+document.getElementById('sultan').addEventListener('click',upgrade7);
+
+function upgrade7(){
+    if (camel >=sultanCost){
+        camel=camel-sultanCost;
+        sultans=sultans+1;
+        sultanCost=Math.round(sultanCost*1.45);
+        document.getElementById('score').innerHTML = camel;
+        document.getElementById('sultanCost').innerHTML = sultanCost;
+        document.getElementById('sultans').innerHTML = sultans;
+    }
+}
+setInterval(function (){
+    camel = camel+Math.floor(sultans*1000);
+    document.getElementById('score').innerHTML = camel;
+},30000)
