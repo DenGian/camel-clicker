@@ -98,11 +98,11 @@ JavaScript.
 ---
 ## Goals
 
-[x] Understand js that needs to be used in this project
+- [x] Understand js that needs to be used in this project
 
-[x] Learn to use and implement js in an actual project
+- [x] Learn to use and implement js in an actual project
 
-[x] Try to implement scss instead of css
+- [x] Try to implement scss instead of css
 
 [] Responsiveness
 
@@ -110,13 +110,15 @@ JavaScript.
 
 [] Use cookies to store player score
 
-[x] Get the page online
+- [x] Get the page online
 
 [] Add a random event/ button that acts like a multiplier for short amount of time
 
-[x] Add live score in the title of the webpage
+- [x] Add live score in the title of the webpage
 
-[x] Have a good file structure
+- [x] Have a good file structure
+
+[] buttons grey out when you do not have enough camels (currency)
 
 ---
 ### What I would like to work on for the future

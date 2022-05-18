@@ -136,6 +136,6 @@ function upgrade7(){
     }
 }
 setInterval(function (){
-    camel = camel+Math.floor(sultans*1000);
+    camel = camel+Math.floor(sultans*10000);
     document.getElementById('score').innerHTML = camel;
 },30000)
